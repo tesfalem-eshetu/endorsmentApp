@@ -1,0 +1,167 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #444059;
+    user-select: none;
+}
+#container{
+    background-color: #1B1924;
+    width: 390px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#ChampionsLogo{
+    margin-top: 40px;
+    width: 90px;
+    height: 90px;
+}
+#mainH1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #FFFFFF;
+
+}
+#inputDiv{
+    width: 317px;
+    height: 118px;
+    border: none;
+    box-sizing: border-box;
+    background-color: #444059;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 15px;
+    color: #8F8F8F;
+    font-family:'Inter', sans-serif;
+    font-weight: 400px;
+    font-size: 14px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: left;
+}
+#formTo {
+    display: flex;
+    width: 317px;
+    height: 30px;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #8F8F8F;
+}
+#from {
+    margin-right: 5px;
+    background-color: #444059;
+    border-radius: 8px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    flex-grow: 1;
+    width: 152.85px;
+    box-sizing: border-box;
+}
+#to {
+    margin-left: 5px;
+    background-color: #444059;
+    border-radius: 8px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    flex-grow: 1;
+    width: 152.85px;
+    box-sizing: border-box;
+}
+.toDiv {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #1B1924;
+    font-size: 14px;
+    padding: 5px 0px 5px 10px;
+} 
+.fromDiv{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #1B1924;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px; 
+}
+#publish-btn{
+    width: 317px;
+    height: 50px;
+    border: none;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: #28A9F1;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+#endorsementsParagraph{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color:#FFFFFF;
+}
+.endorsementsLiDiv{
+    width: 317px;
+    min-height: 50px;
+    max-height: 100px;
+    border: none;
+    box-sizing: border-box;
+    background-color:#FFFFFF;
+    padding: 10px;
+    color: #1B1924;
+    font-family:'Inter', sans-serif;
+    font-weight: 400px;
+    font-size: 14px;
+    overflow-x: hidden;
+    overflow-y: auto; 
+}
+.DivOfendorsementsLiDiv{
+    cursor: pointer;
+    background-color:#FFFFFF;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+ul{
+    list-style-type: none;
+    padding: 0px ;
+    margin: 0px;
+}
+div[contenteditable="true"]:empty:before {
+    content: attr(placeholder);
+    font-family:'Inter', sans-serif;
+    color: #8F8F8F;
+    font-weight: 400;
+    font-size: 15px;
+}
+::-webkit-scrollbar {
+    width: 5px; 
+}
+::-webkit-scrollbar-thumb {
+    background-color: #a0a0a0; 
+    border-radius: 4px; 
+}
+::-webkit-scrollbar-track {
+    background-color: #f0f0f0; 
+}
+#heartImg{
+    width: 20;
+    height: 14px;
+    padding: 0px;
+    margin-top: 6px;
+}
+#likeNum{
+    font-family:'Inter', sans-serif;
+    margin-left: 5px;
+    padding-top: 5px;
+}
